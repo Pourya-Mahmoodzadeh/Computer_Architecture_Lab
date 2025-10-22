@@ -1,0 +1,8 @@
+# VHDL
+**/*.o
+**/work*.cf
+**/*.vcd
+
+# vscode
+**/.vscode
+
