@@ -28,7 +28,6 @@ architecture rtl of D_FF_wrapper is
         );
     end component D_FF;
 
-    signal clk_in : std_logic;
     signal clk_out : std_logic;
 
 begin
@@ -45,7 +44,7 @@ begin
 
     my_clk_div : component clk_div
      port map(
-        clk_in => clk_in,
+        clk_in => clk,
         clk_out => clk_out
     );
 
