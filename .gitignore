@@ -7,3 +7,6 @@
 **/.vscode
 
 session_5/vhdl_description/booth_prototype.vhd
+
+# build directory
+**/build
