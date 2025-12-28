@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 
 
 
-entity D_FF_behavioral is
+entity D_FF is
 	port (
 		reset_n, clk, D : in std_logic;
 		Q, Q_n : out std_logic
@@ -12,7 +12,7 @@ end entity;
 
 
 
-architecture behavior of D_FF_behavioral is
+architecture behavior of D_FF is
 
 begin
 	seq : process (clk, reset_n)

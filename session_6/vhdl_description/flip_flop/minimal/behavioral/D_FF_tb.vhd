@@ -4,14 +4,14 @@ use ieee.numeric_std.all;
 
 
 
-entity D_FF_behavioral_tb is
+entity D_FF_tb is
 end entity;
 
 
 
-architecture behavior of D_FF_behavioral_tb is
+architecture behavior of D_FF_tb is
 
-    component D_FF_behavioral
+    component D_FF
         port (
 		    reset_n, clk, D : in std_logic;
 		    Q, Q_n : out std_logic
@@ -29,7 +29,7 @@ architecture behavior of D_FF_behavioral_tb is
 
 begin
 
-    uut : component D_FF_behavioral
+    uut : component D_FF
      port map(
         D => D,
         clk => clk,
